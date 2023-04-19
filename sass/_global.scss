@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$first: #f0a04b;
+$second: #3f979b;
+$light: #fff;
+$dark: #262626;
+$third: #646464;
+$fourth: #dfe9f3;
+
+html {
+    box-sizing: border-box; /* hack para box model */
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    background-image: linear-gradient(to top, $fourth 0%, $light 100%);
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    width: 100%;
+    border-radius: 4px;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+}
+.btn {
+    display: inline-block;
+    background-color: $second;
+    color: $light;
+    margin-top: 12px;
+    padding: 8px 12px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+.sombra {
+    background-color: $light;
+    box-shadow: 6px 6px 15px rgba(112,112,112,0.48);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+/* tipografia */
+h1 { font-size: 42px; }
+h2 { font-size: 28px; }
+h3 { font-size: 20px; }
+h1, h2, h3 {
+    text-align: center;
+}

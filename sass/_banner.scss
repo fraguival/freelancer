@@ -1,0 +1,24 @@
+.banner {
+    position: relative;
+    background-image: url('../imagenes/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 520px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+.banner-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.banner-content h2, .banner-content p {
+    color: $light;
+}
